@@ -540,3 +540,38 @@ GitHub
 ```
 
 This workflow will become second nature once we practice it.
+
+
+
+SSh keys 
+
+You have to propve to github that yoiu are the owner of your accounr so you hva eto coonnect git with github siomehhow
+The way this is done using ssh 
+
+generate ssh key locally using ssh keygen key then type of encryption then the strenght of encryption and at the end you need to include github email address.
+
+command : ssh-keygen  -t rsa -b 4096 -C "Email address 
+
+so after that it generate the KEy then the defual file locarion is howion and ask in whioch to save th key , then can add passpharse or leave it blank and key is genrate d,
+
+
+To search for the key : 
+ls | grep testkey
+
+Then it shown like this : 
+File_name_key ( corrcet thios 
+)
+testkey.pub , pub stand for public 
+and uplaod that key on your github interface , it is public key , it meands it is okay to see that key .
+
+without the oub is the private key or personal one and we have to secure this key loacally .
+
+How its work ," the public key you put on github , in then and everytiome you want to any task on github like push pull use your account via local machine so with the private key you can show github that you are the admin or owner of thsi publci key . so it can recognise yiou and so .
+
+it is the mathermartical proff thayt this private key is genrate dthi spublic key 
+
+
+on github got ot setting in lost of setting go for ssh key , then add new ssh key jjust for your reference , 
+
+Once added 
+add instruiction how to run the ssh keys 
